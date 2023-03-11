@@ -8,7 +8,6 @@ data = sys.argv[1:][2]
 bot = RobertTheBot(videoUrl, videoLength, data)
 
 try:
-    pass
     # first we have to  download the youtube video
     bot.downloadVideo()
 
